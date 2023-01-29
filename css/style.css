@@ -20,7 +20,7 @@ a {
   max-width: 1220px;
   min-height: 400px;
   padding: 0 20px;
-  margin: 0 auto;
+  margin: 100px auto;
   position: relative;
 }
 #first .upper {
@@ -249,7 +249,6 @@ a {
 }
 #second .wrap {
   height: 100%;
-  width: 1180px;
   padding-left: 200px;
   display: flex;
   flex-direction: column;
@@ -264,7 +263,7 @@ a {
 }
 #second .wrap .html .pic {
   width: 700px;
-  height: 500px;
+  height: 400px;
 }
 #second .wrap .html .pic img {
   width: 100%;
@@ -272,6 +271,8 @@ a {
   object-fit: cover;
 }
 #second .wrap .html .txt {
+  position: relative;
+  width: 100%;
   padding: 50px;
 }
 #second .wrap .html .txt h2 {
@@ -301,14 +302,14 @@ a {
   font-family: "Kanit";
 }
 #second .wrap .html .txt > a {
-  margin-left: 300px;
   color: #f1f1f1;
   display: block;
-  width: 200px;
+  width: 50%;
   padding: 15px;
   text-align: center;
   background-color: #111;
   border-radius: 80px;
+  margin-top: 30px;
 }
 #second .wrap .html .txt > a:hover {
   background-color: rgba(232, 182, 0, 0.6156862745);
@@ -323,7 +324,7 @@ a {
 }
 #second .wrap .react .pic {
   width: 700px;
-  height: 500px;
+  height: 300px;
 }
 #second .wrap .react .pic img {
   width: 100%;
@@ -331,6 +332,8 @@ a {
   object-fit: cover;
 }
 #second .wrap .react .txt {
+  position: relative;
+  width: 100%;
   padding: 50px;
 }
 #second .wrap .react .txt h2 {
@@ -360,10 +363,10 @@ a {
   font-family: "Kanit";
 }
 #second .wrap .react .txt > a {
-  margin-left: 300px;
+  margin-top: 30px;
   color: #f1f1f1;
   display: block;
-  width: 200px;
+  width: 50%;
   padding: 15px;
   text-align: center;
   background-color: #111;
@@ -414,8 +417,9 @@ a {
     margin-bottom: 30px;
   }
   #first .upper article .txtBox .txt a {
-    padding: 20px;
-    margin-left: 320px;
+    margin-left: 50%;
+    width: 50%;
+    padding: 10px;
   }
   #first .lower {
     overflow: hidden;
@@ -518,7 +522,7 @@ a {
     padding: 30px 0px;
   }
   #second .wrap .html .txt > a {
-    margin-left: 200px;
+    margin-left: 50%;
   }
   #second .wrap .html .txt p span {
     display: block;
@@ -539,7 +543,7 @@ a {
     padding: 30px 0px;
   }
   #second .wrap .react .txt > a {
-    margin-left: 200px;
+    margin-left: 50%;
   }
   #second .wrap .react .txt p span {
     display: block;

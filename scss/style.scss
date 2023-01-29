@@ -23,7 +23,7 @@ a {
 	max-width: 1220px;
 	min-height: 400px;
 	padding: 0 20px;
-	margin: 0 auto;
+	margin: 100px auto;
 	position: relative;
 	.upper {
 		width: 100%;
@@ -260,7 +260,6 @@ a {
 	}
 	.wrap {
 		height: 100%;
-		width: 1180px;
 		padding-left: 200px;
 		display: flex;
 		flex-direction: column;
@@ -273,7 +272,7 @@ a {
 			margin-bottom: 100px;
 			.pic {
 				width: 700px;
-				height: 500px;
+				height: 400px;
 				img {
 					width: 100%;
 					height: 100%;
@@ -281,6 +280,8 @@ a {
 				}
 			}
 			.txt {
+				position: relative;
+				width: 100%;
 				padding: 50px;
 				h2 {
 					font-weight: 700;
@@ -309,15 +310,15 @@ a {
 					}
 				}
 				> a {
-					margin-left: 300px;
+					// margin-left: 50%;
 					color: #f1f1f1;
 					display: block;
-					width: 200px;
+					width: 50%;
 					padding: 15px;
 					text-align: center;
 					background-color: #111;
 					border-radius: 80px;
-
+					margin-top: 30px;
 					&:hover {
 						background-color: #e8b6009d;
 						transition: 1s;
@@ -333,7 +334,7 @@ a {
 			width: 1180px;
 			.pic {
 				width: 700px;
-				height: 500px;
+				height: 300px;
 				img {
 					width: 100%;
 					height: 100%;
@@ -341,6 +342,8 @@ a {
 				}
 			}
 			.txt {
+				position: relative;
+				width: 100%;
 				padding: 50px;
 				h2 {
 					font-weight: 700;
@@ -369,10 +372,11 @@ a {
 					}
 				}
 				> a {
-					margin-left: 300px;
+					// margin-left: 50%;
+					margin-top: 30px;
 					color: #f1f1f1;
 					display: block;
-					width: 200px;
+					width: 50%;
 					padding: 15px;
 					text-align: center;
 					background-color: #111;
@@ -423,8 +427,9 @@ a {
 							margin-bottom: 30px;
 						}
 						a {
-							padding: 20px;
-							margin-left: 320px;
+							margin-left: 50%;
+							width: 50%;
+							padding: 10px;
 						}
 					}
 				}
@@ -537,7 +542,7 @@ a {
 					height: auto;
 					padding: 30px 0px;
 					> a {
-						margin-left: 200px;
+						margin-left: 50%;
 					}
 					p {
 						span {
@@ -560,7 +565,7 @@ a {
 					height: auto;
 					padding: 30px 0px;
 					> a {
-						margin-left: 200px;
+						margin-left: 50%;
 					}
 					p {
 						span {
