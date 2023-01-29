@@ -1,0 +1,405 @@
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@700&family=Kanit:wght@300;600;900&family=Noto+Sans+KR:wght@100;400;700&display=swap");
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: "Kanit";
+}
+
+ul,
+ol,
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+#first {
+  max-width: 1220px;
+  min-height: 400px;
+  padding: 0 20px;
+  margin: 0 auto;
+  position: relative;
+}
+#first .upper {
+  width: 100%;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  max-width: 1280px;
+  margin: 0px auto 100px;
+  padding: 50px 0px;
+}
+#first .upper article {
+  display: flex;
+  justify-content: flex-end;
+  overflow: hidden;
+  position: relative;
+  flex-wrap: wrap;
+  padding-left: 120px;
+}
+#first .upper article .pic {
+  box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.3);
+  position: absolute;
+  top: 10%;
+  left: 0;
+  width: 300px;
+  height: 80%;
+  z-index: 2;
+}
+#first .upper article .pic img {
+  height: 100%;
+  object-fit: cover;
+  width: 100%;
+}
+#first .upper article .txtBox {
+  position: relative;
+  background-color: #f1f1f1;
+  padding: 50px;
+}
+#first .upper article .txtBox .txt {
+  margin-left: 200px;
+}
+#first .upper article .txtBox .txt h3 {
+  font-size: 25px;
+  margin-bottom: 20px;
+  font-family: "Kanit";
+  font-weight: 600;
+}
+#first .upper article .txtBox .txt p {
+  font-family: "Kanit";
+  font-size: 18px;
+  margin-bottom: 50px;
+}
+#first .upper article .txtBox .txt a {
+  color: #f1f1f1;
+  display: block;
+  width: 150px;
+  padding: 15px;
+  text-align: center;
+  background-color: #111;
+  border-radius: 80px;
+}
+#first .upper article .txtBox .txt a:hover {
+  background-color: rgba(232, 182, 0, 0.6156862745);
+  transition: 1s;
+  color: #111;
+}
+#first .lower {
+  display: flex;
+  overflow: hidden;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 100%;
+  padding: 50px 0px;
+  margin: 0px auto;
+}
+#first .lower .lowerLeft {
+  margin-right: 150px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  padding: 50px 0px;
+}
+#first .lower .lowerLeft .title {
+  border-right: 5px solid black;
+  margin-right: 50px;
+}
+#first .lower .lowerLeft .title h2 {
+  transform: rotate(90deg);
+  font-size: 50px;
+  letter-spacing: 1px;
+  padding-top: 20px;
+}
+#first .lower .lowerLeft .profileTxt {
+  padding: 50px;
+}
+#first .lower .lowerLeft .profileTxt p {
+  font-weight: 600;
+  font-size: 30px;
+  letter-spacing: 1px;
+  color: #333;
+}
+#first .lower .lowerLeft .profileTxt p span {
+  font-weight: 300;
+  padding: 20px;
+  font-size: 30px;
+  color: #111;
+}
+#first .lower .lowerLeft .profileTxt p:nth-of-type(3) {
+  display: flex;
+  flex-direction: column;
+}
+#first .lower .lowerLeft .profileTxt p:nth-of-type(3) span {
+  font-weight: 300;
+  padding: 0px;
+  font-family: "NotoSansKR";
+}
+#first .lower .lowerRight {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 50px 0px;
+}
+#first .lower .lowerRight .title {
+  border-right: 5px solid black;
+  margin-right: 50px;
+}
+#first .lower .lowerRight .title h2 {
+  transform: rotate(90deg);
+  font-size: 50px;
+  padding-top: 20px;
+}
+#first .lower .lowerRight .logo {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 50px;
+}
+#first .lower .lowerRight .logo .html {
+  width: 150px;
+  height: 150px;
+}
+#first .lower .lowerRight .logo .html img {
+  width: 100%;
+  height: 100%;
+  object-fit: center;
+}
+#first .lower .lowerRight .logo .css {
+  width: 150px;
+  height: 150px;
+}
+#first .lower .lowerRight .logo .css img {
+  width: 100%;
+  height: 100%;
+  object-fit: center;
+}
+#first .lower .lowerRight .logo .sass {
+  width: 130px;
+  height: 130px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+#first .lower .lowerRight .logo .sass h2 {
+  font-size: 30px;
+  font-family: "Kanit";
+  font-weight: 900;
+}
+#first .lower .lowerRight .logo .sass img {
+  width: 100%;
+  height: 100%;
+  object-fit: center;
+}
+#first .lower .lowerRight .logo .js {
+  width: 150px;
+  height: 150px;
+}
+#first .lower .lowerRight .logo .js img {
+  width: 100%;
+  height: 100%;
+  object-fit: center;
+}
+#first .lower .lowerRight .logo .react {
+  width: 120px;
+  height: 150px;
+  padding-left: 30px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+#first .lower .lowerRight .logo .react h2 {
+  font-size: 30px;
+  font-family: "Kanit";
+  font-weight: 900;
+}
+#first .lower .lowerRight .logo .react img {
+  width: 120px;
+  height: 100px;
+  object-fit: center;
+}
+#first .lower .lowerRight .logo .redux {
+  width: 150px;
+  height: 150px;
+}
+#first .lower .lowerRight .logo .redux img {
+  width: 100%;
+  height: 100%;
+  object-fit: center;
+}
+
+#second {
+  background-color: #f1f1f1;
+  width: 100%;
+  height: 100vh;
+  padding: 50px 0px;
+  margin: 0px auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#second .title {
+  border-right: 5px solid black;
+  height: 100%;
+  width: 100px;
+}
+#second .title h2 {
+  transform: rotate(90deg);
+  font-size: 50px;
+  padding-top: 20px;
+}
+#second .wrap {
+  height: 100%;
+  width: 1180px;
+  padding-left: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+#second .wrap .html {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 1180px;
+}
+#second .wrap .html .pic {
+  width: 700px;
+  height: 500px;
+}
+#second .wrap .html .pic img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+#second .wrap .html .txt {
+  padding: 50px;
+}
+#second .wrap .html .txt h2 {
+  font-weight: 700;
+  font-family: "NotoSansKR";
+  margin-bottom: 10px;
+  font-size: 28px;
+}
+#second .wrap .html .txt p {
+  font-size: 20px;
+  color: #444;
+  margin-bottom: 10px;
+  font-family: "NotoSansKR";
+  font-weight: 700;
+}
+#second .wrap .html .txt p a {
+  font-size: 18px;
+  color: #111;
+  text-decoration: underline;
+  font-weight: 100;
+  font-family: "Kanit";
+}
+#second .wrap .html .txt p span {
+  font-size: 18px;
+  color: #111;
+  font-weight: 100;
+  font-family: "Kanit";
+}
+#second .wrap .html .txt > a {
+  margin-left: 300px;
+  color: #f1f1f1;
+  display: block;
+  width: 200px;
+  padding: 15px;
+  text-align: center;
+  background-color: #111;
+  border-radius: 80px;
+}
+#second .wrap .html .txt > a:hover {
+  background-color: rgba(232, 182, 0, 0.6156862745);
+  transition: 1s;
+  color: #111;
+}
+#second .wrap .react {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 1180px;
+}
+#second .wrap .react .pic {
+  width: 700px;
+  height: 500px;
+}
+#second .wrap .react .pic img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+#second .wrap .react .txt {
+  padding: 50px;
+}
+#second .wrap .react .txt h2 {
+  font-weight: 700;
+  font-family: "NotoSansKR";
+  margin-bottom: 10px;
+  font-size: 28px;
+}
+#second .wrap .react .txt p {
+  font-size: 20px;
+  color: #444;
+  margin-bottom: 10px;
+  font-family: "NotoSansKR";
+  font-weight: 700;
+}
+#second .wrap .react .txt p a {
+  font-size: 18px;
+  color: #111;
+  text-decoration: underline;
+  font-weight: 100;
+  font-family: "Kanit";
+}
+#second .wrap .react .txt p span {
+  font-size: 18px;
+  color: #111;
+  font-weight: 100;
+  font-family: "Kanit";
+}
+#second .wrap .react .txt > a {
+  margin-left: 300px;
+  color: #f1f1f1;
+  display: block;
+  width: 200px;
+  padding: 15px;
+  text-align: center;
+  background-color: #111;
+  border-radius: 80px;
+}
+#second .wrap .react .txt > a:hover {
+  background-color: rgba(232, 182, 0, 0.6156862745);
+  transition: 1s;
+  color: #111;
+}
+
+@media screen and (max-width: 1179px) {
+  #first .upper {
+    flex-wrap: wrap;
+  }
+  #first .upper article {
+    padding-left: 0px;
+    flex: 1 100%;
+  }
+  #first .upper article .pic {
+    width: 100%;
+    top: auto;
+    left: auto;
+  }
+  #first .upper article .txtBox {
+    width: auto;
+    padding: 40px 20px;
+    flex: 1 100%;
+  }
+  #first .upper article .txtBox .txt {
+    margin-left: 0px;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
