@@ -411,7 +411,7 @@ a {
 					flex: 1 100%;
 				}
 				.txtBox {
-					width: auto;
+					width: 100%;
 					padding: 40px 20px;
 					flex: 1 100%;
 					.txt {
@@ -424,7 +424,7 @@ a {
 						}
 						a {
 							padding: 20px;
-							margin-left: 500px;
+							margin-left: 320px;
 						}
 					}
 				}
@@ -448,7 +448,12 @@ a {
 						span {
 							font-size: 20px;
 							padding: 0px 10px;
-							display: inline;
+						}
+						&:nth-of-type(3) {
+							span {
+								padding: 0px 10px;
+								font-size: 18px;
+							}
 						}
 					}
 				}
@@ -524,7 +529,6 @@ a {
 				flex-wrap: wrap;
 				.pic {
 					width: 100%;
-					min-height: 500px;
 					flex: 1 100%;
 					height: auto;
 				}
@@ -533,7 +537,12 @@ a {
 					height: auto;
 					padding: 30px 0px;
 					> a {
-						margin-left: 350px;
+						margin-left: 200px;
+					}
+					p {
+						span {
+							display: block;
+						}
 					}
 				}
 			}
@@ -543,7 +552,7 @@ a {
 				flex-wrap: wrap;
 				.pic {
 					width: 100%;
-					min-height: 500px;
+					height: auto;
 					flex: 1 100%;
 				}
 				.txt {
@@ -551,7 +560,12 @@ a {
 					height: auto;
 					padding: 30px 0px;
 					> a {
-						margin-left: 350px;
+						margin-left: 200px;
+					}
+					p {
+						span {
+							display: block;
+						}
 					}
 				}
 			}
