@@ -574,4 +574,154 @@ a {
 }
 
 @media screen and (max-width: $mobile) {
+	#first {
+		.upper {
+			article {
+				.txtBox {
+					.txt {
+						h3 {
+							font-size: 30px;
+						}
+						p {
+							font-size: 15px;
+						}
+						a {
+							margin-left: 0px;
+							width: 100%;
+							padding: 10px;
+						}
+					}
+				}
+			}
+		}
+		.lower {
+			.lowerLeft {
+				.title {
+					h2 {
+						font-size: 30px;
+					}
+				}
+				.profileTxt {
+					padding: 0px 0px;
+					p {
+						font-size: 20px;
+						span {
+							font-size: 16px;
+							padding: 0px 0px;
+						}
+						&:nth-of-type(3) {
+							span {
+								padding: 0px 0px;
+								font-size: 16px;
+							}
+						}
+					}
+				}
+			}
+			.lowerRight {
+				align-items: center;
+				padding: 0px 0px;
+				.title {
+					h2 {
+						font-size: 30px;
+					}
+				}
+				.logo {
+					flex-wrap: wrap;
+					display: flex;
+					justify-content: center;
+					align-items: center;
+					.html {
+						width: 50px;
+						height: 100%;
+					}
+					.css {
+						width: 50px;
+						height: 100%;
+					}
+					.sass {
+						width: 50px;
+						height: 100%;
+						h2 {
+							font-size: 13px;
+						}
+					}
+					.js {
+						width: 50px;
+						height: 100%;
+					}
+					.react {
+						width: 50px;
+						height: 100%;
+						padding-left: 0px;
+						h2 {
+							font-size: 13px;
+						}
+					}
+					.redux {
+						width: 60px;
+						height: 100%;
+					}
+				}
+			}
+		}
+	}
+	#second {
+		.title {
+			width: 80px;
+			h2 {
+				font-size: 30px;
+			}
+		}
+		.wrap {
+			.html {
+				.txt {
+					h2 {
+						font-size: 20px;
+					}
+					p {
+						font-size: 18px;
+						span {
+							font-size: 16px;
+						}
+						&:nth-of-type(3) {
+							span {
+								font-size: 16px;
+							}
+						}
+					}
+					> a {
+						margin-top: 30px;
+						margin-left: 0px;
+						font-size: 15px;
+						padding: 10px;
+					}
+				}
+			}
+			.react {
+				.txt {
+					h2 {
+						font-size: 20px;
+					}
+					p {
+						font-size: 18px;
+						span {
+							font-size: 16px;
+						}
+						&:nth-of-type(3) {
+							span {
+								font-size: 16px;
+							}
+						}
+					}
+					> a {
+						margin-top: 30px;
+						margin-left: 0px;
+						font-size: 15px;
+						padding: 10px;
+					}
+				}
+			}
+		}
+	}
 }

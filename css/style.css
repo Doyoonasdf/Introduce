@@ -545,5 +545,121 @@ a {
     display: block;
   }
 }
+@media screen and (max-width: 539px) {
+  #first .upper article .txtBox .txt h3 {
+    font-size: 30px;
+  }
+  #first .upper article .txtBox .txt p {
+    font-size: 15px;
+  }
+  #first .upper article .txtBox .txt a {
+    margin-left: 0px;
+    width: 100%;
+    padding: 10px;
+  }
+  #first .lower .lowerLeft .title h2 {
+    font-size: 30px;
+  }
+  #first .lower .lowerLeft .profileTxt {
+    padding: 0px 0px;
+  }
+  #first .lower .lowerLeft .profileTxt p {
+    font-size: 20px;
+  }
+  #first .lower .lowerLeft .profileTxt p span {
+    font-size: 16px;
+    padding: 0px 0px;
+  }
+  #first .lower .lowerLeft .profileTxt p:nth-of-type(3) span {
+    padding: 0px 0px;
+    font-size: 16px;
+  }
+  #first .lower .lowerRight {
+    align-items: center;
+    padding: 0px 0px;
+  }
+  #first .lower .lowerRight .title h2 {
+    font-size: 30px;
+  }
+  #first .lower .lowerRight .logo {
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  #first .lower .lowerRight .logo .html {
+    width: 50px;
+    height: 100%;
+  }
+  #first .lower .lowerRight .logo .css {
+    width: 50px;
+    height: 100%;
+  }
+  #first .lower .lowerRight .logo .sass {
+    width: 50px;
+    height: 100%;
+  }
+  #first .lower .lowerRight .logo .sass h2 {
+    font-size: 13px;
+  }
+  #first .lower .lowerRight .logo .js {
+    width: 50px;
+    height: 100%;
+  }
+  #first .lower .lowerRight .logo .react {
+    width: 50px;
+    height: 100%;
+    padding-left: 0px;
+  }
+  #first .lower .lowerRight .logo .react h2 {
+    font-size: 13px;
+  }
+  #first .lower .lowerRight .logo .redux {
+    width: 60px;
+    height: 100%;
+  }
+  #second .title {
+    width: 80px;
+  }
+  #second .title h2 {
+    font-size: 30px;
+  }
+  #second .wrap .html .txt h2 {
+    font-size: 20px;
+  }
+  #second .wrap .html .txt p {
+    font-size: 18px;
+  }
+  #second .wrap .html .txt p span {
+    font-size: 16px;
+  }
+  #second .wrap .html .txt p:nth-of-type(3) span {
+    font-size: 16px;
+  }
+  #second .wrap .html .txt > a {
+    margin-top: 30px;
+    margin-left: 0px;
+    font-size: 15px;
+    padding: 10px;
+  }
+  #second .wrap .react .txt h2 {
+    font-size: 20px;
+  }
+  #second .wrap .react .txt p {
+    font-size: 18px;
+  }
+  #second .wrap .react .txt p span {
+    font-size: 16px;
+  }
+  #second .wrap .react .txt p:nth-of-type(3) span {
+    font-size: 16px;
+  }
+  #second .wrap .react .txt > a {
+    margin-top: 30px;
+    margin-left: 0px;
+    font-size: 15px;
+    padding: 10px;
+  }
+}
 
 /*# sourceMappingURL=style.css.map */
