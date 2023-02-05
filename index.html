@@ -7,11 +7,22 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>자기소개 페이지</title>
   <link rel="stylesheet" href="css/style.css">
+  <script defer src="js/anime.js"></script>
+  <script defer src="js/main.js"></script>
 </head>
 
 <body>
+
+
+  <ul>
+    <li class="on"></li>
+    <li></li>
+    <li></li>
+  </ul>
+
+
   <section id="first">
-    <div class="upper">
+    <div class="upper scrBox">
       <article>
         <div class="pic">
           <img src="img/me.jpg" alt="내사진">
@@ -32,7 +43,13 @@
         </div>
       </article>
     </div>
-    <div class="lower">
+
+    <div class="ScrollBtn">
+      <span></span>
+      <p>Scroll</p>
+    </div>
+
+    <div class="lower scrBox">
       <div class="lowerLeft">
         <div class="title">
           <h2>PROFILE</h2>
@@ -80,8 +97,8 @@
       </div>
     </div>
   </section>
-  <section id="second">
 
+  <section id="second" class="scrBox">
     <div class="title">
       <h2> PORTFOLIO</h2>
     </div>
@@ -122,6 +139,8 @@
     </div>
 
   </section>
+
+
 </body>
 
 </html>

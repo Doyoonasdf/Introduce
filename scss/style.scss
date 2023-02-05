@@ -19,6 +19,26 @@ a {
 	text-decoration: none;
 }
 
+ul {
+	position: fixed;
+	right: 10px;
+	top: 50%;
+	transform: translateY(-50%);
+	li {
+		width: 20px;
+		height: 20px;
+		border-radius: 10px;
+		background: #6e6e6efa;
+		margin-bottom: 20px;
+		cursor: pointer;
+		transition: 0.5s;
+		&.on {
+			height: 80px;
+			background: rgb(239, 239, 116);
+		}
+	}
+}
+
 #first {
 	max-width: 1220px;
 	min-height: 400px;
@@ -87,6 +107,42 @@ a {
 						}
 					}
 				}
+			}
+		}
+	}
+
+	.ScrollBtn {
+		p {
+			text-align: center;
+			font-size: 18px;
+			color: #636363;
+			display: block;
+			transform: translateY(20px);
+		}
+		span {
+			cursor: pointer;
+			position: absolute;
+			top: 45%;
+			left: 50%;
+			width: 30px;
+			height: 50px;
+			margin-left: -15px;
+			border: 2px solid #636363;
+			border-radius: 50px;
+			box-sizing: border-box;
+
+			&::before {
+				position: absolute;
+				top: 10px;
+				left: 50%;
+				content: '';
+				width: 6px;
+				height: 6px;
+				margin-left: -3px;
+				background-color: #636363;
+				border-radius: 100%;
+				animation: sdb10 2s infinite;
+				box-sizing: border-box;
 			}
 		}
 	}
@@ -393,6 +449,25 @@ a {
 	}
 }
 
+@keyframes sdb10 {
+	0% {
+		-webkit-transform: translate(0, 0);
+		opacity: 0;
+	}
+
+	40% {
+		opacity: 1;
+	}
+
+	80% {
+		-webkit-transform: translate(0, 20px);
+		opacity: 0;
+	}
+
+	100% {
+		opacity: 0;
+	}
+}
 @media screen and (max-width: $tablet) {
 	#first {
 		margin: 0px auto 100px;
