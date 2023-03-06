@@ -33,7 +33,7 @@ ul li {
 }
 ul li.on {
   height: 80px;
-  background: rgb(239, 239, 116);
+  background: rgb(255, 218, 95);
 }
 
 #first {
@@ -107,14 +107,14 @@ ul li.on {
   transition: 1s;
   color: #111;
 }
-#first .ScrollBtn p {
+#first .Btn p {
   text-align: center;
   font-size: 18px;
   color: #636363;
   display: block;
   transform: translateY(20px);
 }
-#first .ScrollBtn span {
+#first .Btn span {
   cursor: pointer;
   position: absolute;
   top: 45%;
@@ -126,7 +126,7 @@ ul li.on {
   border-radius: 50px;
   box-sizing: border-box;
 }
-#first .ScrollBtn span::before {
+#first .Btn span::before {
   position: absolute;
   top: 10px;
   left: 50%;
@@ -447,6 +447,9 @@ ul li.on {
   }
 }
 @media screen and (max-width: 1179px) {
+  ul {
+    display: none;
+  }
   #first {
     margin: 0px auto 100px;
   }
@@ -557,6 +560,9 @@ ul li.on {
   #first .lower .lowerRight .logo .redux {
     width: 100px;
     height: 100px;
+  }
+  .Btn {
+    display: none;
   }
   #second {
     justify-content: left;

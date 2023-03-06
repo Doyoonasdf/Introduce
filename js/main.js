@@ -1,9 +1,8 @@
 const scrBox = document.querySelectorAll('.scrBox');
 const lis = document.querySelectorAll('ul li');
-
+const btn = document.querySelector('.Btn');
 let posArr = [];
-const base = -200;
-const btn = document.querySelector('.ScrollBtn');
+const base = -50;
 
 for (let el of scrBox) {
 	posArr.push(el.offsetTop);
@@ -37,5 +36,13 @@ lis.forEach((el, index) => {
 		});
 		for (let el of lis) el.classList.remove('on');
 		el.classList.add('on');
+	});
+});
+
+btn.addEventListener('click', () => {
+	new Anim(window, {
+		prop: 'scroll',
+		value: posArr[2],
+		duration: 2000,
 	});
 });

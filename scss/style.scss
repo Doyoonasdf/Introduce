@@ -34,7 +34,7 @@ ul {
 		transition: 0.5s;
 		&.on {
 			height: 80px;
-			background: rgb(239, 239, 116);
+			background: rgb(255, 218, 95);
 		}
 	}
 }
@@ -111,7 +111,7 @@ ul {
 		}
 	}
 
-	.ScrollBtn {
+	.Btn {
 		p {
 			text-align: center;
 			font-size: 18px;
@@ -469,6 +469,9 @@ ul {
 	}
 }
 @media screen and (max-width: $tablet) {
+	ul {
+		display: none;
+	}
 	#first {
 		margin: 0px auto 100px;
 		.upper {
@@ -586,7 +589,9 @@ ul {
 			}
 		}
 	}
-
+	.Btn {
+		display: none;
+	}
 	#second {
 		justify-content: left;
 		height: 100%;
@@ -746,6 +751,7 @@ ul {
 			}
 		}
 	}
+
 	#second {
 		.title {
 			width: 80px;
