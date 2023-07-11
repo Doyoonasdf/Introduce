@@ -112,7 +112,7 @@ ul li.on {
   font-size: 18px;
   color: #636363;
   display: block;
-  transform: translateY(20px);
+  transform: translateY(40px);
 }
 #first .Btn span {
   cursor: pointer;
